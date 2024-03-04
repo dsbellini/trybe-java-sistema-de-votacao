@@ -4,7 +4,7 @@ package com.betrybe.sistemadevotacao;
  * The type Pessoa.
  */
 public abstract class Pessoa {
-  private String nome;
+  protected String nome;
 
   public String getNome() {
     return nome;
